@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# rsync local repos into dropbox (minus `node_modules` and `bower_components`)
+
+rsync --archive --progress --human-readable --delete --exclude 'node_modules' --exclude 'bower_components' /Users/gsuntop/Documents/mozilla-code/ /Users/gsuntop/Dropbox/Code/mozilla-code-nodeps/
+date >> /Users/gsuntop/bin/dropcode.log

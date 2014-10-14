@@ -1,0 +1,2 @@
+networksetup -setairportpower en0 on
+blueutil power 0

@@ -1,0 +1,3 @@
+blueutil power 1
+networksetup -setairportpower en0 off
+open /Applications/Wireless\ Network\ Utility.app/
